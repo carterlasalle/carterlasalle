@@ -3,7 +3,7 @@
 I am RocketNinja, currently pursuing my Intro to Programming class. I am a tech enthusiast & an open-source advocate. I am always open to collaborating on projects and innovative/disruptive ideas. Find out more about me & feel free to connect with me here!
 
 
-## ⚡ Technologies Im Interested In
+## ⚡ Technologies I'm Interested In
 BLOCKCHAIN!
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
