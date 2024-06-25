@@ -36,4 +36,4 @@ I am Carter LaSalle, a tech enthusiast & an open-source advocate. I am always op
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=rocketninja15&count_private=true&show_icons=true&include_all_commits=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rocketninja15&hide=TeX&layout=compact)
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=aemmadi.aemmadi)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=rocketninja15.rocketninja15)
