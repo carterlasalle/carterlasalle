@@ -33,7 +33,7 @@ I am Carter LaSalle, a tech enthusiast & an open-source advocate. I am always op
 ![BitBucket](https://img.shields.io/badge/-BitBucket-darkblue?style=flat-square&logo=bitbucket)
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi)
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=rocketninja15&count_private=true&show_icons=true&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rocketninja15&hide=TeX&layout=compact)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=carterlasalle&count_private=true&show_icons=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=carterlasalle&hide=TeX&layout=compact)
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=rocketninja15.rocketninja15)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=carterlasalle.carterlasalle)
