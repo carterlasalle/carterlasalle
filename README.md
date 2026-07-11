@@ -2,12 +2,31 @@
   <img src="./assets/header.svg" alt="Carter LaSalle — systems, security, applied AI" width="100%" />
 </p>
 
+<p align="center">
+  <a href="https://carterlasalle.com"><strong>carterlasalle.com</strong></a>
+  &nbsp;·&nbsp;
+  Security Engineering at <a href="https://lila.ai"><strong>Lila Sciences</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/fl97inc"><strong>@fl97inc</strong></a>
+</p>
+
 I’m a computer science student at **Notre Dame ’29** who builds security-minded software close to real constraints: malformed packets, private messages, rolling-shutter cameras, terminal workflows, unreliable links, and human operators.
 
 I care about small attack surfaces, explicit failure modes, and products that are as serious about tests and documentation as they are about the demo.
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### [Mac Messages MCP](https://github.com/carterlasalle/mac_messages_mcp)
+
+**44,000+ downloads.** A local-first Model Context Protocol server for reading, searching, and sending through macOS Messages.
+
+Message data stays on-device, databases open read-only, and attachments use deliberate progressive disclosure.
+
+`Python` `MCP` `SQLite` `macOS` · [PyPI](https://pypi.org/project/mac-messages-mcp/)
+
+</td>
 <td width="50%" valign="top">
 
 ### [VEIL](https://github.com/carterlasalle/veil)
@@ -19,6 +38,8 @@ It spans simulation, signed edge schedules, fail-closed controls, an operator co
 `Python` `C11` `TypeScript` `FastAPI` `Ed25519`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [NetSift](https://github.com/carterlasalle/NetSift)
@@ -30,8 +51,6 @@ Defensive protocol decoding, deterministic structured output, a compact filter l
 `Python` `Networking` `PCAP` `TLS` `DNS`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [treecat](https://github.com/carterlasalle/treecat)
@@ -43,6 +62,8 @@ Distributed through Homebrew and native packages, with automated releases for ma
 `Go` `TUI` `Homebrew` `GoReleaser`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [PixelChangeCheck](https://github.com/carterlasalle/PixelChangeCheck)
@@ -52,19 +73,6 @@ A Rust screen-sharing system that transmits changed regions instead of blindly r
 Includes direct QUIC transport, relay-backed NAT traversal, adaptive quality, a native viewer, and zero-install browser viewing.
 
 `Rust` `QUIC` `LZ4` `MJPEG` `Networking`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Mac Messages MCP](https://github.com/carterlasalle/mac_messages_mcp)
-
-A local-first Model Context Protocol server for reading, searching, and sending through macOS Messages.
-
-It keeps message data on-device, opens databases read-only, and exposes attachments through deliberate progressive disclosure.
-
-`Python` `MCP` `SQLite` `macOS` · [PyPI](https://pypi.org/project/mac-messages-mcp/)
 
 </td>
 <td width="50%" valign="top">
