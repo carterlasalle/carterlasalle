@@ -1,113 +1,80 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="Carter LaSalle — systems, security, applied AI" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://carterlasalle.com"><strong>carterlasalle.com</strong></a>
-  &nbsp;·&nbsp;
-  Security Engineering at <a href="https://lila.ai"><strong>Lila Sciences</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/fl97inc"><strong>@fl97inc</strong></a>
-</p>
+<img src="./identity.svg" width="620" alt="Carter LaSalle — systems, security, applied AI"/>
 
-I’m a computer science student at **Notre Dame ’29** who builds security-minded software close to real constraints: malformed packets, private messages, rolling-shutter cameras, terminal workflows, unreliable links, and human operators.
+<img src="./stats.svg" width="620" alt="GitHub contributions in the last year"/>
 
-I care about small attack surfaces, explicit failure modes, and products that are as serious about tests and documentation as they are about the demo.
+[carterlasalle.com](https://carterlasalle.com) &nbsp;·&nbsp;
+[linkedin](https://www.linkedin.com/in/carter-lasalle/) &nbsp;·&nbsp;
+[email](mailto:carterlasalle@gmail.com)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+</div>
 
-### [Mac Messages MCP](https://github.com/carterlasalle/mac_messages_mcp)
+<img src="./hd-about.svg" width="620" alt="about"/>
 
-**44,000+ downloads.** A local-first Model Context Protocol server for reading, searching, and sending through macOS Messages.
+> Computer science at Notre Dame ’29. Security Engineering at [Lila Sciences](https://lila.ai).<br>
+> I like software with narrow boundaries, visible failure modes, and a reason to exist.
 
-Message data stays on-device, databases open read-only, and attachments use deliberate progressive disclosure.
+I build close to the sharp edges: malformed packets, private messages, terminal<br>
+workflows, rolling-shutter cameras, unreliable links, and human operators.
 
-`Python` `MCP` `SQLite` `macOS` · [PyPI](https://pypi.org/project/mac-messages-mcp/)
+The through-line is simple: understand the system, reduce the attack surface,<br>
+then ship the unglamorous parts that make the thing dependable.
 
-</td>
-<td width="50%" valign="top">
+<img src="./hd-stack.svg" width="620" alt="stack"/>
 
-### [VEIL](https://github.com/carterlasalle/veil)
+<samp>python &nbsp; go &nbsp; rust &nbsp; typescript &nbsp; c &nbsp; next.js &nbsp; postgres &nbsp; sqlite &nbsp; docker &nbsp; linux &nbsp; git</samp>
 
-A safety-gated research and control stack for studying high-frequency stage-light modulation against rolling-shutter cameras.
+<img src="./hd-projects.svg" width="620" alt="selected work"/>
 
-It spans simulation, signed edge schedules, fail-closed controls, an operator console, portable firmware, audit chains, and a 120-case device matrix.
+**[mac messages mcp](https://github.com/carterlasalle/mac_messages_mcp)** &nbsp;·&nbsp; <samp>python, sqlite, mcp</samp><br>
+A local-first bridge between coding agents and macOS Messages. Read-only<br>
+database access, deliberate attachment disclosure, and guarded send actions.
 
-`Python` `C11` `TypeScript` `FastAPI` `Ed25519`
+**[netsift](https://github.com/carterlasalle/NetSift)** &nbsp;·&nbsp; <samp>python, networking</samp><br>
+A dependency-free PCAP and PCAPNG explorer built for terminal investigations:<br>
+defensive protocol decoding, deterministic output, filters, and fuzzed parsers.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**[treecat](https://github.com/carterlasalle/treecat)** &nbsp;·&nbsp; <samp>go, tui</samp><br>
+Turns a codebase into compact, syntax-highlighted context. Ships through<br>
+Homebrew and native packages for macOS, Linux, and Windows.
 
-### [NetSift](https://github.com/carterlasalle/NetSift)
+**[pixelchangecheck](https://github.com/carterlasalle/PixelChangeCheck)** &nbsp;·&nbsp; <samp>rust, quic</samp><br>
+Screen sharing that transmits changed regions instead of whole frames, with<br>
+direct and relayed transport, adaptive quality, and native or browser viewing.
 
-A dependency-free packet-capture explorer that turns PCAP and PCAPNG files into answers from the terminal.
+**[stamina timer](https://github.com/carterlasalle/staminatimer)** &nbsp;·&nbsp; <samp>next.js, postgres</samp><br>
+A production training PWA with guided sessions, analytics, expiring shares,<br>
+row-level authorization, and an optional authenticated AI coach.
 
-Defensive protocol decoding, deterministic structured output, a compact filter language, randomized robustness tests, and cross-platform CI.
+<img src="./hd-stats.svg" width="620" alt="stats"/>
 
-`Python` `Networking` `PCAP` `TLS` `DNS`
+<div align="center">
 
-</td>
-<td width="50%" valign="top">
+<img src="./streak.svg" width="620" alt="Current and longest contribution streak"/>
 
-### [treecat](https://github.com/carterlasalle/treecat)
+<img src="./langs.svg" width="620" alt="Top languages across public repositories"/>
 
-A polished Go CLI and interactive TUI for turning a codebase into useful, syntax-highlighted context.
+<img src="./year.svg" width="620" alt="The last year, one character per day"/>
 
-Distributed through Homebrew and native packages, with automated releases for macOS, Linux, and Windows.
+</div>
 
-`Go` `TUI` `Homebrew` `GoReleaser`
+<img src="./hd-principles.svg" width="620" alt="working principles"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<samp>
+untrusted input  →  narrow boundary  →  observable behavior  →  safe failure
+</samp>
 
-### [PixelChangeCheck](https://github.com/carterlasalle/PixelChangeCheck)
+- Local first when the data is personal.
+- Corrupt inputs and dropped connections are product behavior, not edge trivia.
+- Tests, packaging, release automation, runbooks, and threat models are part of shipping.
 
-A Rust screen-sharing system that transmits changed regions instead of blindly resending frames.
+<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
-Includes direct QUIC transport, relay-backed NAT traversal, adaptive quality, a native viewer, and zero-install browser viewing.
+Every graphic is stored in this repository. The contribution, streak, language,<br>
+calendar, and heading SVGs are drawn by a [scheduled action](.github/workflows/profile.yml)<br>
+from GitHub’s own data, then committed only when their contents change.
 
-`Rust` `QUIC` `LZ4` `MJPEG` `Networking`
-
-</td>
-<td width="50%" valign="top">
-
-### [Stamina Timer](https://github.com/carterlasalle/staminatimer)
-
-A production training PWA with guided sessions, analytics, expiring shares, and an optional authenticated AI coach.
-
-Authorization is enforced with PostgreSQL row-level security; server routes add origin, CSRF, size, and rate-limit controls.
-
-`Next.js` `TypeScript` `Supabase` `PWA` · [Live](https://staminatimer.com)
-
-</td>
-</tr>
-</table>
-
-### The through-line
-
-```text
-untrusted input  ──▶  narrow boundary  ──▶  observable behavior  ──▶  safe failure
-```
-
-- **Local first when data is personal.** A tool should not need a cloud round-trip just because one is convenient.
-- **Failures are product behavior.** Corrupt captures, expired signatures, missing sensors, and dropped connections deserve designed outcomes.
-- **Shipping is part of engineering.** Reproducible installs, CI, tests, release automation, runbooks, and threat models are not cleanup work.
-
-### Smaller, stranger experiments
-
-[EmojiStega](https://github.com/carterlasalle/emojistega) hides data in Unicode variation selectors ·
-[System Information MCP](https://github.com/carterlasalle/system_information_mcp) gives coding agents structured local environment context ·
-[Conversation Predictor](https://github.com/carterlasalle/conversation-predictor) explores conversation paths with MCTS and language models ·
-[Ghost Typer](https://github.com/carterlasalle/ghost-typer) studies realistic typing dynamics in a local browser extension
-
----
-
-<p align="center">
-  <sub>Currently exploring secure agent tooling, local-first integrations, network systems, and cyber-physical safety.</sub>
-</p>
+Nothing depends on a third-party stats card. The animation is SMIL inside the<br>
+SVGs because GitHub strips scripts from profile READMEs; light and dark themes<br>
+are handled inside each file for the same reason.
