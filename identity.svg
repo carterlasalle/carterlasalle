@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="176" viewBox="0 0 620 176" role="img" aria-labelledby="title desc">
+  <title id="title">Carter LaSalle</title>
+  <desc id="desc">Systems, security, and applied AI.</desc>
+  <style>
+    .ink{fill:#424a53}.data{fill:#6e7681}.dim{fill:#8c959f}.rule{stroke:#d8dee4}.accent{fill:#147d72}.accent-line{stroke:#147d72}
+    @media(prefers-color-scheme:dark){.ink{fill:#f0f6fc}.data{fill:#c9d1d9}.dim{fill:#8b949e}.rule{stroke:#30363d}.accent{fill:#5eead4}.accent-line{stroke:#5eead4}}
+  </style>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
+    <text x="0" y="18" class="accent" font-size="11" letter-spacing="2.4">BUILD / BREAK / UNDERSTAND</text>
+    <line x1="244" y1="14" x2="620" y2="14" class="rule" stroke-width="1"/>
+    <text x="0" y="72" class="ink" font-size="40" font-weight="700" letter-spacing="-1.6">CARTER LASALLE</text>
+    <text x="2" y="102" class="data" font-size="13" letter-spacing="2">SYSTEMS · SECURITY · APPLIED AI</text>
+    <g transform="translate(2 128)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 20h58l17-16 20 31 23-23 20 13 27-20 22 15h54" class="rule" stroke-width="1"/>
+      <path d="M0 20h58l17-16 20 31 23-23 20 13 27-20 22 15h54" class="accent-line" stroke-width="1.6" stroke-dasharray="241" stroke-dashoffset="241">
+        <animate attributeName="stroke-dashoffset" from="241" to="0" dur="1.4s" fill="freeze"/>
+      </path>
+      <circle cx="75" cy="4" r="3" class="accent"/>
+      <circle cx="118" cy="12" r="3" class="accent"/>
+      <circle cx="165" cy="5" r="3" class="accent"/>
+    </g>
+    <text x="620" y="154" class="dim" text-anchor="end" font-size="11">ND ’29  /  LILA SCIENCES  /  LOS ANGELES</text>
+  </g>
+</svg>
